@@ -1,0 +1,24 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssh-keygen"
+version = "1.0.2"
+description = "ssh-keygen in pure python with seeded key generation support"
+readme = "README.md"
+authors = [{ name = "John Ao", email = "johnao73thu@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+dependencies = ["tqdm"]
+requires-python = ">=3.0"
+
+[project.urls]
+Homepage = "https://github.com/John-Ao/python-ssh-keygen"
