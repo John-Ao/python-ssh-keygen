@@ -10,7 +10,7 @@ python -m ssh_keygen
 # Command line mode
 #   -s <seed_string>  Option 1: use seed string
 #   -f <file>         Option 2: use seed file
-#   --random          Option 3: use random 128-bit string
+#   --random          Option 3: use random 256-bit string
 #   -o <path>         Path to save the private key file
 #   -n <N=1024>       The number of hash iterations for seed string
 #                     Larger N is safer but takes more time.
@@ -20,4 +20,4 @@ python -m ssh_keygen -f "/path/to/seed_file"    -o "/path/to/save/private_key"
 ```
 """
 
-__version__ = '1.0.2'
+__version__ = '1.0.3'

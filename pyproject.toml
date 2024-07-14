@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ssh-keygen"
-version = "1.0.2"
+version = "1.0.3"
 description = "ssh-keygen in pure python with seeded key generation support"
 readme = "README.md"
 authors = [{ name = "John Ao", email = "johnao73thu@gmail.com" }]
